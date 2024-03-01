@@ -1,8 +1,8 @@
 .grid__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr); 
-    gap: 1rem;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr); 
+    grid-gap: 1rem;
     color: green;
     width: 100%;
     height: 100vh;
@@ -10,14 +10,14 @@
 
 .grid_element1 {
     background-color: #ff9999;
-    grid-column: span 4;
+    grid-column: span 2;
     grid-row: span 3;
 }
 
 .grid_element2 {
     background-color: #99ff99;
-    grid-column: span 4;
-    grid-row: span 6;
+    grid-column: span 2;
+    grid-row: span 3;
 }
 
 .grid_element3 {
@@ -40,7 +40,7 @@
 
 .grid_element6 {
     background-color: #99ffff;
-    grid-column: 1 / 5;
+    grid-column: span 2;
     grid-row: 4/7;
 }
 
