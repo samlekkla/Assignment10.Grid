@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+}
+
+
+
+button,
+input {
+    overflow: visible;
+}
+
+
+button,
+select {
+
+    text-transform: none;
+}
+
+
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+
+fieldset {
+    margin: 0;
+}
+
+
+
+legend {
+    padding: 0;
+}
+
+
+
+progress {
+    vertical-align: baseline;
+}
+
+
+textarea {
+    overflow: auto;
+}
+
+
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+}
+
+
+
+details,
+menu {
+    display: block;
+}
+
+summary {
+    display: list-item;
+}
+
+
+template {
+    display: none;
+}
